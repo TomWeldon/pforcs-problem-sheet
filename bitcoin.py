@@ -15,7 +15,7 @@ bitCoinDict = returnedData.json()
 #for keys, values in bitCoinDict.items():
    #print(values)
 
-#print(bitCoinDict['bpi'])
+print(bitCoinDict['bpi'])
 
 currency = bitCoinDict['bpi']
 #print(currency)
@@ -23,5 +23,9 @@ currency = bitCoinDict['bpi']
 #for values in currency.items():
 #    newCur = currency{values}
 #    print(newCur)
-Usrate = currency['USD']['rate_float']
-print(Usrate)
+dollarRate = currency['USD']['rate_float']
+euroRate = currency['EUR']['rate_float']
+poundRate = currency['GBP']['rate_float']
+print('1 bitcoin is ${:.2f} (US Dollars)'.format(dollarRate))
+print('1 bitcoin is £{:.2f} (Euro)'.format(euroRate))
+print('1 bitcoin is €{:.2f} (Pound Sterling)'.format(poundRate))
