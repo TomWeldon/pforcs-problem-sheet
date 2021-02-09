@@ -23,8 +23,6 @@ euroRate = bitCoinDict['bpi']['EUR']['rate_float']
 poundRate = bitCoinDict['bpi']['GBP']['rate_float']
 
 # printing  current USD, Euro and GBP  rate for 1 bitcoin corrected to two decimal places
-
 print('')
-print('1 Bitcoin = ${:.2f} (US Dollars)'.format(dollarRate))
-print('\t    €{:.2f} (Euro)'.format(euroRate))
-print('\t    £{:.2f} (Pound Sterling)'.format(poundRate))
+print('1 Bitcoin = ${:.2f} (US Dollars)\n\t    €{:.2f} (Euro)\n\t    £{:.2f} (Pound Sterling)'.format(dollarRate, euroRate, poundRate))
+
