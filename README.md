@@ -13,5 +13,20 @@ Steps to calculate BMI:
 How to format BMI result to two decimal places, {:.2f) was found at
 https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python
 
+## Task 2
+### Displaying Current Bitcoin Value
 
+Steps to dsplaying current Bltcoin value:
+
+1. Import the 'requests' library into the bitcoin.py file
+2. Assign 'https://api.coindesk.com/v1/bpi/currentprice.json' to variable 'url'
+3. Use a get request to import the url json file
+4. Assign the returned json file to a dictionary variable named 'bitCoinDict'
+5. To ascertain the current Bitcoin rate for USD, EUR and GPB the float_rate key value was accessed within the nested dictionaries
+   'USD', 'EUR' and 'GPB', within the nested dictionary 'bpi', within the dictionary 'bitCoinDict
+6. Each current bitcoin rate for USD, Euro and GBP printed on separate lines and aligned using \n \t and spaces.
+
+### Sources:
+How to access the 'float_rate' within the USD, EUR and GBP nested dictionaries was found at
+https://www.programiz.com/python-programming/nested-dictionary
 
