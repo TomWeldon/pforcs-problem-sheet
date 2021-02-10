@@ -1,5 +1,5 @@
 # pforcs-problem-sheet
-<<<<<<< HEAD
+
 Task 1: Calculating BMI:
 =======
 
@@ -13,7 +13,7 @@ Steps to calculate BMI:
 3. BMI output printed corrected to two decimal places.
 
 ### Sources:
->>>>>>> 8621f22bc9983263894ac323401cefe0032ed1cc
+
 How to format BMI result to two decimal places, {:.2f) was found at
 https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python
 
