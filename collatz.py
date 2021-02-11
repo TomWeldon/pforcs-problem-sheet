@@ -25,13 +25,13 @@ if posInteger:
         if (num1 % 2 == 0):
             num1 = num1 / 2
             print(int(num1), end = ' ')
-            
+
         elif(num1 % 2 ==1):
             num1 = (num1 * 3) + 1
             print(int(num1), end = ' ')
 
-# If the boolean condition is False (No postive integer > 1) the else staement is invoked and the
-# message 'No positive number entered. Program will exit!' along with program finish
+# If the boolean condition is False (No postive integer > 1) the else statement is invoked and the
+# message 'No positive number entered. Program will exit!' is printed along with program finish
 
 else:
     print('No positive number entered. Program will exit!')
