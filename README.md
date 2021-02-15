@@ -1,9 +1,9 @@
 # pforcs-problem-sheet
 
-Task 1: Calculating BMI:
+
 =======
 
-## Task 1
+## Week 02 Task: bmi.py
 ### Calculating BMI:
 
 Steps to calculate BMI:
@@ -17,10 +17,10 @@ Steps to calculate BMI:
 How to format BMI result to two decimal places, {:.2f) was found at
 https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python
 
-## Task 2
+## Week03 Task: bitcoin.py 
 ### Displaying Current Bitcoin Value
 
-Steps to dsplaying current Bltcoin value:
+Steps to displaying current Bltcoin value:
 
 1. Import the 'requests' library into the bitcoin.py file
 2. Assign 'https://api.coindesk.com/v1/bpi/currentprice.json' to variable 'url'
@@ -34,3 +34,16 @@ Steps to dsplaying current Bltcoin value:
 How to access the 'float_rate' within the USD, EUR and GBP nested dictionaries was found at
 https://www.programiz.com/python-programming/nested-dictionary
 
+## Week04 Task: collatz.py
+### Write a program that asks the user to input any positive integer and outputs the successive values based on a required calculation
+
+Steps to carrying out required calculation
+
+1. Print input request for a positive integer
+2. Set the Boolean condition for the input int (num1 > 1)
+3. If Boolean is True ie num1 > 1, the integer is printed and a while loop is entered.
+   While num1 is > 1 an if statement if int is even and an elif statement if int is odd are invoked to carry out
+   the required calclations. The integer output of the if and elif statements either odd or even are printed on each 
+   iterations of the statements.
+4. If Boolean is False ie num1 < 1 an else statement is invoked and the message 'No positive number entered. Program will exit!'
+   is printed and progranm ended.
