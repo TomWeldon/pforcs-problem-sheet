@@ -72,7 +72,7 @@ Steps to calculating and displaying the square root of a positive number
 ### Sources:
 https://surajregmi.medium.com/how-to-calculate-the-square-root-of-a-number-newton-raphson-method-f8007714f64.
 
-The website was used to identify the formula used to get  the sqaure root of the input number.
+The website was used to identify the formula used to get  the square root of the input number.
 x_i := (x_i + n / x_i) / 2
 
 x_i = number (square root)
