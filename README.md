@@ -53,24 +53,25 @@ Steps to carrying out required calculation
 
 Steps to calculating and displaying the square root of a positive number
 
-1. Declare the input positive number, sqRootNum
-2. Write the function named sqrt() with the input number sqRootNum as the input arg.
-   Assign a range from 0-100 to variable called numIter
-   Assign sqRootNum to variable called number. Initially the purpose of the assignment is to start number with a value equal to sqRootNum.
-   Number will subsequently change while sqRootNum remains constant.
-   Start a for loop which will iterate to the value on numIter range(0-100). Within the for loop insert the formula number = (number + (sqRootNum / number)) / 2.
+1. Declare the input positive number, 'sqRootNum'
+2. Write the function named sqrt() with the input number 'sqRootNum' as the input arg.
+   Assign a range from 0-100 to variable called 'numIter'
+   Assign 'sqRootNum' to variable called 'number'. Initially the purpose of the assignment is to start 'number' with a value equal to 'sqRootNum'.
+   'Number' will subsequently change while 'sqRootNum' remains constant.
+   Start a for loop which will iterate to the value on 'numIter' range(0-100). Within the for loop insert the formula number = (number + (sqRootNum / number)) / 2.
    The resulting number at the end of the for loop will be the sqaure root of the input number (sqRootNum). On each iteration of the formula the resulting number
    is closer to the actual square root of the input number.
-   On completion of the for loop the number(actual square root) and input number (sqRootNum)are returned.
+   On completion of the for loop the 'number'(actual square root) and input number (sqRootNum)are returned.
    These returns form a two element tuple
-3. Assign the function sqrt() to a variable called approx.
-4. Declare a boolean statement which has a True condition, element two (approx[1]) of the resulting tuple from the sqrt function assigned to approx is >= 0.
+3. Assign the function sqrt() to a variable called 'approx'.
+4. Declare a boolean statement which has a True condition, element two (approx[1]) of the resulting tuple from the sqrt() function assigned to 'approx' is >= 0.
 5. If True, print the resulting message 'The sqaure root of (sqRootNum) is approx (number)'. The numbers are approx[1] and approx[0].
    The square root number is corrected to one decimal place.
 6. If False(else), print message 'You did not enter a positive number the program will close'.
 
 ### Sources:
 https://surajregmi.medium.com/how-to-calculate-the-square-root-of-a-number-newton-raphson-method-f8007714f64.
+
 The website was used to identify the formula used to get  the sqaure root of the input number.
 x_i := (x_i + n / x_i) / 2
 
