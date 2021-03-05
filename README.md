@@ -77,3 +77,24 @@ x_i := (x_i + n / x_i) / 2
 
 x_i = number (square root)
 n = sqRootNum (input number)
+
+## Week06 Task: es.py
+### Write a program that input a text file from the command line and outputs the number of 'e's in the file
+### Assumption is made that the output is to include upper and lowercase 'e's
+
+Steps to calculating and print to screen the number of 'e's in a text file entered from the command line.
+
+1. Import the Python Sys module
+2. Assign the command line input argument (.txt file) to variable called filename
+3. Create a function(readfile()) which reads in the .txt file (filename) and returns the the information in 'data'.
+4. Call the function and assign it to a variable called 'char'
+5. Initialise variable 'count' at 0.
+6. Write a For Loop which iterates for each character in 'char'
+7. Within the For Loop write an if and elif statement. If i == 'e' increment 'count' by 1.
+   elif i == 'E' increment 'count' by 1. This captures the number of lower and uppercase 'e's 
+8. Print out the 'count'(number) of 'e's in the input .txt file. Includes the number of both lower and uppercase 'e's.
+
+### Sources:
+https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python/7439162
+
+This link was used as the source on how to read in a file from the command line. 
