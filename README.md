@@ -98,3 +98,27 @@ Steps to calculating and print to screen the number of 'e's in a text file enter
 https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-command-line-in-python/7439162
 
 This link was used as the source on how to read in a file from the command line. 
+
+## Week07 Task: extract-url.py
+### Write progrm to extract the URL to a list from each line of access.log file.
+### The input file to search through is inputted from the command line
+
+Steps to extracting te URL from each line of the given access.log file and adding to a list.
+
+1. Import re and sys modules. re to use regular expressionas and sys to allow file input from the command line.
+2. Creat the regular expression to search each line of the input file
+3. Assign the input file argument (sys.argv[1]) to variable 'filename'
+4. Declare a list named 'resultURL'
+5. Using 'filename' as 'inputfile. Start a 'for loop' with each line in the input file 'filename' seached with re.findall() using the 
+   regular expression 'regex'. Assign each line's search result to variable 'foundTextList'.
+6. Start an 'if statement' with the condition if the number of lines in 'foundTestList' is not equal to 0 each element is assigned to
+   a variable called 'foundText'. Each line is then appended to the list 'resultURL' as an element, with any spaces at the beginning or end
+   removed. 
+7. Resulting list is printed to screen using 'print(resultURL)'.
+
+### Sources:
+https://superuser.com/questions/576710/regex-to-return-string-between-2-specific-characters
+
+This link was used as a source to aid creating the regular expression that will extract a section of a line between two characters or set of characters
+
+(?<=period_1_)(.*)(?=.ssa)
