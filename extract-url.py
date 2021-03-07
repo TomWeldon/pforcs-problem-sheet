@@ -8,7 +8,7 @@ import re, sys
 # and Look ahead assertion on "HTTP" in a line in the input file
 regex ="(?<=T)(.*)(?=HTTP)"
 
-# Take a sample of a full accesss.log as an input file from the command line and assign it to ariable 'filename'
+# Take a sample of a full accesss.log as an input file from the command line and assign it to variable 'filename'
 filename = sys.argv[1]
 
 # Declare a list named 'resultURL'
