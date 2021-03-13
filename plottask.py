@@ -37,13 +37,13 @@ plt.plot(xpoints,hpoints, color = 'g', label = 'h(x) = x**3')
 plt.legend(facecolor='#b3ffff')
 
 # Assign a title to the plot graph with 'font1'
-plt.title('Function Plot of f,g,h', fontdict = font1)
+plt.title('Function Plot of f,g,h', fontdict = font1, weight = 'bold')
 
 # Assign a label to the x axis with a font type of 'font2'
-plt.xlabel('X Values range 1-4', fontdict = font2)
+plt.xlabel('X Values range 1-4', fontdict = font2, weight ='bold')
 
 # Assign a label to the y axis with a font type of 'font2'
-plt.ylabel('Functions of X Values for f,g,h', fontdict = font2)
+plt.ylabel('Functions of X Values for f,g,h', fontdict = font2, weight ='bold')
 
 # Export a figure of the plot as 'Plot.png'
 plt.savefig('Plot.png')
