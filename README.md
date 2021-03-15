@@ -125,7 +125,7 @@ This link was used as a source to aid creating the regular expression that will 
 
 
 ## Week08 task: plottask.py
-### Write a program that displays a plot of the functions f(x) = x, g(x)= x**2 and h(x)=X**3
+### Write a program that displays a plot of the functions f(x) = x, g(x)= x squared and h(x)=x cubed
 ### in the range [0,4] on the one set of axes.
 
 Steps to plotting the functions f(x)=x, g(x)=x squared and h(x)=x cubed
