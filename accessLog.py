@@ -32,11 +32,7 @@ sessionIdDownload = df.groupby('session ID', as_index=False).agg({'data response
 sessionIdDownload = sessionIdDownload.sort_values('data response', ascending = False).head(10)
 print(sessionIdDownload)
 
-print(sessionIdDownload['session ID'])
-labels = sessionIdDownload['session ID']
 
-labels = labels
-sizes = sessionIdDownload['data response']
 
 res=sessionIdDownload.reset_index()
 plt.figure(figsize=(10,8))
