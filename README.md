@@ -122,3 +122,28 @@ https://superuser.com/questions/576710/regex-to-return-string-between-2-specific
 This link was used as a source to aid creating the regular expression that will extract a section of a line between two characters or set of characters
 
 (?<=period_1_)(.*)(?=.ssa)
+
+
+## Week08 task: plottask.py
+### Write a program that displays a plot of the functions f(x) = x, g(x)= x squared and h(x)=x cube in the range [0,4] on the one set of axes.
+
+Steps to plotting the functions f(x)=x, g(x)=x squared and h(x)=x cubed
+
+1. Import modules numpy and matplotlib.pyplot
+2. Assign the xpoints a range of 0-4 using np.arange()with a start point of 0 and a stop 
+   point of 4 in steps of 0.1. This will dispaly a smother curve in the resulting plot.
+3. Assign the values for f(x) = x, g(x) = x squared h(x)= x cubed.
+   as fpoints, gpoints and hpoints
+4. Create two font dictionaries 'font1' and 'font2' which will be used to display the title, the x axis label and
+   the y axis label on the plot.
+5. Assign the hex color '#ff9966' to the plot background.
+6. Plot f(x)=x, colour red for plot line and a label for the plot line legend.
+7. Plot g(x)=x**2, colour blue for plot line and a label for the plot line legend.
+8. Plot h(x)=x**3, colour green for plot line and a label for the plot line legend.
+9. Assign the hex colour  '#b3ffff' to the legend background.
+10. Assign a title to the plot using font dictionary 'font1' and assign labels to
+    x axis and y axis using font dictionary 'font2'
+11. Export a figure of the plot as 'plot.png'
+12. Display the plot using plt.show()
+
+
