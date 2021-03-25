@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+
 logFilename = 'accessLogShort.log'
 
 
@@ -35,9 +36,14 @@ print(sessionIdDownload)
 
 
 res=sessionIdDownload.reset_index()
-plt.figure(figsize=(10,8))
-sns.barplot(x='session ID', y='data response',data=res)
+#fig = plt.figure()
+#ax = fig.add_subplot()
+#fig, ax = plt.subplots()
+#ax.set_ylabel('Data Response')
 
-plt.xticks(rotation=70)
-plt.tight_layout()
+ax=sns.barplot(x='session ID', y='data response',data=res)
+ax.set(xlabel='Data Response', ylabel='Data Download')
+plt.xticks(rotation=70, fontsize=8, weight='bold', color='#800000')
+plt.yticks(fontsize=8, weight='bold', color='#800000')
+#plt.tight_layout()
 plt.show()
