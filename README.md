@@ -148,12 +148,15 @@ Steps to plotting the functions f(x)=x, g(x)=x squared and h(x)=x cubed
 
 ### Sources:
 https://stackabuse.com/how-to-change-plot-background-in-matplotlib
+
 Link used to ascertain how to change background colour for legends and plot
 
 https://www.w3schools.com/colors/colors_picker.asp
+
 Link used pick hex colours for text and background
 
 https://pynative.com/python-range-for-float-numbers/
+
 Link used to plot range 0-4 in steps of 0.1 to enable a smoother visual of the plot curves.
 
 ## Week09: accessLog.py
@@ -190,9 +193,11 @@ Steps to plotting each session ID against amount of data downloaded for that ses
 ### Sources:
 
 https://stackabuse.com/seaborn-bar-plot-tutorial-and-examples/
+
 Link used to ascertain how to create a Seaborn bar plot
 
 https://stackoverflow.com/questions/12444716/how-do-i-set-the-figure-title-and-axes-labels-font-size-in-matplotlib
+
 Link used to aid creation of axes' labels and title label.
 
 
