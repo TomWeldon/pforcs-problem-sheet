@@ -153,7 +153,7 @@ Link used to ascertain how to change background colour for legends and plot
 
 https://www.w3schools.com/colors/colors_picker.asp
 
-Link used pick hex colours for text and background
+Link used to select hex colours for text and background
 
 https://pynative.com/python-range-for-float-numbers/
 
