@@ -146,4 +146,54 @@ Steps to plotting the functions f(x)=x, g(x)=x squared and h(x)=x cubed
 11. Export a figure of the plot as 'plot.png'
 12. Display the plot using plt.show()
 
+### Sources:
+https://stackabuse.com/how-to-change-plot-background-in-matplotlib
+Link used to ascertain how to change background colour for legends and plot
+
+https://www.w3schools.com/colors/colors_picker.asp
+Link used pick hex colours for text and background
+
+https://pynative.com/python-range-for-float-numbers/
+Link used to plot range 0-4 in steps of 0.1 to enable a smoother visual of the plot curves.
+
+## Week09: accessLog.py
+
+### Write a program that takes in an access.log file and plots the output of 'session ID' against amount of data downloaded by each 'session ID'
+
+### Access.log file the log file to be analysed is inputted from the command line
+
+Steps to plotting each session ID against amount of data downloaded for that session Id.
+
+1. Import the required module libraries
+2. Input the access.log to be analysed from the command line
+3. Assign a variable 'colNames' for the column names of the access.log file
+4. Read in the file as a csv to a dataframe assinged to variable called 'df' with space(' ') 
+   as a delimiter. Column names assigned from variable 'colNames'
+5. Drop columns not required or have useless data.
+6. Define a function (sessionId()) which searches each url for the contained session ID.
+   The last six characters of the session Id are returned, as the session Id is long and displaying the name of the  on the resulting plot will make the plot visualization appear unbalanced.
+7. Create a new column ('session ID) from the function sessionId() applied to each row of session ID
+8. Create a Excel of the new dataframe 'df'. This will aid visual analysis of the data frame.
+9. Create a new data frame called 'sessionIdDownload'. This will contain session ID and the sum of data downloaded
+   grouped by 'session ID'
+10. Top 10 rows used for plotting based on amount of data downloaded by each 'session ID'
+11. 'sessionIdDownload' printed to screen to display 'session ID' and data downloaded'data response'
+12. 'sessionIdDownload' assigned to variable 'called resultPlot'
+13. Font dictionaries 'font1' and 'font2' created to be used on plot
+14. Barplot of 'resultPlot'created using Seaborn module with x axis = 'session ID' and y axis= 'data response'
+15. Labels assinged to x and y axis
+16. 'x' ticks on x axis angled at 45 degrees to allow better visual of 'session ID'.
+17. Plot title created using 'font2'
+18. Image of plot saved as .png
+19. Bar plot displayed.
+
+### Sources:
+
+https://stackabuse.com/seaborn-bar-plot-tutorial-and-examples/
+Link used to ascertain how to create a Seaborn bar plot
+
+https://stackoverflow.com/questions/12444716/how-do-i-set-the-figure-title-and-axes-labels-font-size-in-matplotlib
+Link used to aid creation of axes' labels and title label.
+
+
 
